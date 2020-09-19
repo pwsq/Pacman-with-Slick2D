@@ -1,0 +1,39 @@
+Final Project Team 65
+
+--------------
+Github Repository Link
+--------------
+
+https://github.com/UPenn-CIT599/final-project-team-65/commits/master
+
+
+--------------
+Overview
+--------------
+
+In light of the Blackjack Solitaire game that we designed in project 3, our group developed a 2-dimensional Pac-Man game,
+in which the player controls Pac-Man, who must eat all the "dots" and avoid the "ghosts" within enclosed mazes.
+If Pac-Man makes contact with the ghosts, he will lose a life and the game ends if Pac-Man loses all his lives.
+
+This game features multiple game levels. The player advances through the game levels aiming to score as high as
+possible before running out of lives. In addition to the main game state, the game also has game over state when
+the game ends after the Pac-Man runs out of lives and the high score state to view history high scores.
+
+
+----------------
+Work Breakdown
+----------------
+
+Yufei:
+Designed and implemented the overall multi-state game structure based on Slick library. Initiated map display and map data
+collection logic as well as utility and data classes such as GameInfo, MapData, RowColTuple, etc.
+Implemented Ghost class with support of ghost animations and multi-ghost path selection.
+Implemented overall integration between different classes and states in the game as well as writing the easter egg functionality.
+
+Liyu:
+Designed & Implemented map classes, created corresponding map data. Drew maps with dots, walls and bonus fruits.
+Implemented score, update score, and display and update history scores logic. Added unit tests for Map class.
+
+Xizi(Pacman):
+Animation and spritesheet generation of Pacman class. Update Pacman position with corresponding keystrokes and set
+Pacman's path around wall shapes within the maze. Unit tests for Pacman class.
