@@ -1,4 +1,4 @@
-# MCIT-591 Final Project Team 65
+# Pacman Remake with Slick2D
 
 
 ### Instruction for installing Slick2D and LWJGL Libraries
